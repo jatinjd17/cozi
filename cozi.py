@@ -13,7 +13,7 @@ options = Options()
 # options.add_argument(r"--user-data-dir=C:\Users\jatin\AppData\Local\Google\Chrome\User Data") #e.g. C:\Users\You\AppData\Local\Google\Chrome\User Data
 # options.add_argument('profile-directory=Default')
 options.add_argument('--window-size=1920,1080')
-# options.add_argument("--headless")
+options.add_argument("--headless")
 options.add_argument('--ignore-ssl-errors=yes')
 options.add_argument('--ignore-certificate-errors')
 # options.add_argument("--start-fullscreen")
@@ -35,7 +35,7 @@ print(email)
 
 # Directing the driver to the defined url
 # driver.get('https://www.sps-software.net/')
-driver.get('https://my.cozi.com/signup/')
+driver.get('https://www.shareasale.com/r.cfm?b=2092437&u=3160921&m=128168')
 
 sleep(10)
 
@@ -69,6 +69,8 @@ driver.find_element_by_xpath("//*[@id='app']/main/div[2]/div/div[1]/div/div[1]/d
 # textin = element.get_attribute('innerText')
 #
 # print(textin)
+
+sleep(2)
 
 print('Done!!!!!!!!')
 

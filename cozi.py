@@ -30,7 +30,7 @@ driver = webdriver.Chrome(chrome_options=options)
 gname = '@gmail.com'
 fullname = names.get_full_name()
 firstname = fullname.split(" ",1)
-email = fullname.replace(" ","")+str(randrange(4000))+gname
+email = fullname.replace(" ","")+str(randrange(9000))+gname
 print(email)
 
 # Directing the driver to the defined url
